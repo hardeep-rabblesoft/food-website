@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width:1200px){
+   
+    .links{
+        visibility: hidden;
+    }
+
+}
+@media screen and (max-width:992px){
+   
+    .links{
+        visibility: hidden;
+    }
+
+}
+@media screen and (max-width:768px){
+    body{
+        
+    }
+
+}
+@media screen and (max-width:567px){
+    body{
+        
+    }
+
+}
+
+.right{
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar{
+    padding: 25px 10px;
+}
+.links>a:first-child{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.links>a{
+    text-decoration: none;
+    color: grey;
+}
+/* .btn>.btn{
+    padding: 5px 15px; 
+    border-style: none;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+} */
+.header{
+    height: 600px;
+    background-color: rgb(229, 229, 229);
+}
+.header-child{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.section-3{
+    height: 100vh;
+}
+.section-3>.container>.row>p{
+   text-transform: capitalize;
+}
+.img{
+    background-color: rgb(26, 26, 26);
+    height: 300px;
+    width: 100%;
+}
+.section-4{
+    height: 600px;
+    background-color: rgb(229, 229, 229);
+}
+
+.sec-4-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-4-child>div{
+    height: 370px;
+    background-color: white;
+    margin: 10px 10px;
+}
+.sec-4-child-n>div,h2,p{
+ text-align: center;
+ margin-top: 5px;
+
+}
+.bi-gem,
+.bi-x-diamond-fill,.bi-exclamation-diamond-fill{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+   
+}
+.section-5{
+    height: 100vh;
+    background-image: url();
+}
+.section-5>.container>.links-2>div{
+margin: 0px auto;
+width: 500px;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+text-transform: capitalize;
+
+}
+.section-5>.container>.links-2>div>a{
+text-decoration: none;
+color: grey;
+border-bottom: 2px solid grey;
+
+}
+.section-5>.container>.dishes>.col>img{
+height: 250px ;
+width: 250px;
+border-radius: 50%;
+}
+.section-5>p{
+    padding-top: 2px;
+}
+.section-5-ch{
+    height: 100%;
+}
+.Starters{
+    font-size: 40px;
+    color: rgb(230, 0, 0);
+}
